@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+* {
+    font-family: 'Oswald', serif;
+}
+
+.flat-button {
+    cursor: pointer;
+    box-shadow: 0 1px 1px #aaaaaa;
+}
+.flat-button:hover {
+    box-shadow: 0 0 0 #ffffff;
+}
+.clickable {
+    cursor: pointer;
+}
+.hidden {
+    !important;
+    display: none;
+}
